@@ -8,3 +8,5 @@
   %link{:href => "{{ '/css/main.css' | prepend: site.baseurl }}", :rel => "stylesheet"}
   %link{:href => "{{ page.url | replace:'index.haml','' | prepend: site.baseurl | prepend: site.url }}", :rel => "canonical"}
   %link{:href => "{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}", :rel => "alternate", :title => "{{ site.title }}", :type => "application/rss+xml"}
+
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
