@@ -53,6 +53,9 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    neat (1.7.2)
+      bourbon (>= 4.0)
+      sass (>= 3.3)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
@@ -79,6 +82,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   jekyll-haml
+  neat
 
 BUNDLED WITH
    1.10.6
